@@ -1,0 +1,74 @@
+/* Header */
+
+.homepage {
+    background-image: url("../image/flower.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+/* Info  */
+.medicine {
+    direction: rtl;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    height: 427px;
+    width: 50%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    display: block;
+}
+
+#health1{
+    background-image: url("../image/health1.jpg");
+}
+#health2{
+    background-image: url("../image/health2.jpg");
+}
+#health3{
+    background-image: url("../image/health3.jpg");
+}
+#health4{
+    background-image: url("../image/health4.jpg");
+}
+#health5{
+    background-image: url("../image/health5.jpg");
+}
+
+.var1, .var2, .var3, .var4, .var5{
+    height: 427px;
+    width: 100%;
+}
+.img1, .img3, .img5{
+    float: left;
+}
+.img2, .img4 {
+    float: right;
+}
+.text1, .text3, .text5{
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 22px;
+    width: 50%;
+    background-color: rgba(217, 205, 191);
+    height: 100%;
+    padding-right: 91px;
+}
+.text4, .text2{
+    padding-right: 50px;
+    padding-top: 100px;
+    font-size: 22px;
+    width: 50%;
+    background-color: #8C775E;
+    height: 100%;
+    padding-left: 91px;
+    float: left;
+}

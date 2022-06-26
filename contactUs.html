@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+	<title>סודות סבתא - צור קשר </title>
+    <meta name="description" content="מידע אודות סודות סבתא"/>
+    <meta name="keywords" content="מקומות בילוי, סודות בישול, סודות בריאות, תרופות סבתא" />
+    <meta name="author" content="tal & taliya" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<link rel="icon" href="image/grandmother_logo.png" type="image/png" sizes="16x16">
+
+    <!-- CSS -->
+
+	<link href="styles/header-footer.css" rel="stylesheet" />
+	<link href="styles/contact.css" rel="stylesheet" />
+	
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+<div>
+	<div class="homepage">
+		<div class="header">
+			<div class="right-buttons" >
+				<a href="index.html" >
+					<img src="image/grandmother_logo.png"  alt="לוגו האתר - לחיצה עליו מעבירה לעמוד הבית"></a>
+				</div>
+			<div class="navbar" aria-label="main-nav">
+				<ul>
+					<li class="left-buttons"><a href="" class="notActive"><span class="arrow"></span>
+						סודות של בישול
+					</a>
+						<ul>
+							<li><a href="rice.html">איך להכין אורז</a></li>
+							<li><a href="#" class="notActive">איך לבחוק תבלינים</a></li>
+							<li><a href="#" class="notActive">איך לבשל מרק</a></li>
+						</ul>
+					</li>
+					<li class="left-buttons"><a href="" class="notActive"><span class="arrow"></span> מקומות סודיים לבילוי</a>
+						<ul>
+							<li><a href="place.html">תל אביב</a></li>
+							<li><a href="#" class="notActive">ירושלים</a></li>
+							<li><a href="#" class="notActive">חיפה</a></li>
+						</ul>
+					</li>
+					<li class="left-buttons"><a href="" class="notActive"><span class="arrow"></span> סודות של בריאות</a>
+						<ul>
+							<li><a href="health.html">תרופות סבתא</a></li>
+							<li><a href="" class="notActive">גוף בריא</a></li>
+							<li><a href="" class="notActive">תרגילי נשימות</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<section>
+		<h1 class="title">צור קשר</h1>
+		<form>
+			<p class="required" id="must">* שדה חובה</p>
+			<input type="hidden" id="myEmail" name="name" value="" required>
+			<label for="FirstName" required>
+				<span class="required">* </span>שם מלא:
+				<input type="text" id="FirstName" placeholder="הכנס שם פרטי ומשפחה" required/>
+			</label>
+			<label for="email" required>
+				<span class="required">* </span>דואר אלקטרוני:
+				<input type="text" id="YourMail" placeholder="הזן דואר אלקטרוני" required />
+			</label>
+			<fieldset>
+				<legend>מגדר:</legend>
+				<label for="male">
+					<input type="radio" id="male" name="gender" /> זכר
+				</label>
+				<label for="female">
+					<input type="radio" id="female" name="gender" /> נקבה
+				</label>
+			</fieldset>
+				<legend>מהו נושא הפניה שלך</legend>
+				<label for="subject" required>
+				<select id="subject">
+				<option value="1">הצעת סוד לאתר</option>
+				<option value="2">הודעה על שגיאה באתר</option>
+				<option value="3">אחר</option>
+				</select>
+			</label>
+			<label for="myMS" required>
+				<span class="required">* </span>רשום את הודעתך:
+				<textarea id="myMS" placeholder="הזן תוכן" required></textarea>
+			</label>
+			<input type="submit" id="Send" value="שלח">
+			<div id="feedback"></div>
+		</form>
+
+	</section>
+	<div class="footerBar">
+		<ul class="footerNav">
+			<li>
+				<a href="about.html">
+					<span>אודות</span>
+				</a>
+			</li>
+			<li>
+				<a href="siteMap.html">
+					<span>מפת האתר</span>
+				</a>
+			</li>
+			<li>
+				<a href="contactUs.html">
+					<span>צור קשר</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+    <div class="footer">
+		<span>© 2022 Taliya Itskov || Tal Itzhakov.  Secret of grandmother.</span>
+	</div>
+</div>
+</body>
+</html>

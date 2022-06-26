@@ -1,0 +1,99 @@
+
+label, legend{
+    display:block;
+    margin-top:10px;
+}
+
+.title 
+{
+    font-size: 35px;
+    width: 100%;
+    height: auto;
+    background-color: #8C775E;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    text-align: right;
+}
+
+form {
+    padding-right: 99px;
+    padding-bottom: 10px;
+}
+form p{
+   margin-top:50px;
+   font-size:12px;
+}
+
+input[type ='text'] , input[type ='password'] ,textarea , select {
+   display:block;
+   margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+margin-top:10px;
+}
+
+textarea{
+   height:200px;
+   width: 400px;
+  
+}
+
+#myMS{
+padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 3px solid #ccc;
+   outline: none;
+}
+
+input[type=text] {
+
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 3px solid #ccc;
+   outline: none;
+}
+
+input[type=text]:focus {
+   border: 3px solid #8C775E;
+}
+
+#myMS:focus{
+    border: 3px solid #8C775E;
+}
+
+#Send{
+    background-color: #8C775E;
+   border: 2px solid white;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   font-weight: bold;   
+}
+#Send:hover, #Send:focus{
+   border: 2px solid #8C775E;
+   background-color:white;
+   color:black;
+}
+.required{
+   color:red;
+}
+
+#subject{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}

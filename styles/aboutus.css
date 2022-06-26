@@ -1,0 +1,68 @@
+/* Header */
+
+.homepage {
+    background-image: url("../image/about\ us.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+/* Info  */
+.about {
+    direction: rtl;
+}
+
+.img1, .img2, .img3 {
+    height: 427px;
+    width: 50%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pic1, .pic2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    display: block;
+}
+
+#taliya{
+    background-image: url("../image/Taliya.JPG");
+}
+#tal{
+    background-image: url("../image/Tal.jpg");
+}
+#hit{
+    padding-right: 106px;
+}
+
+.var1, .var2, .var3{
+    height: 427px;
+    width: 100%;
+}
+.img1, .img3{
+    float: left;
+}
+.img2 {
+    float: right;
+}
+.text1, .text3{
+    padding-left: 50px;
+    padding-top: 139px;
+    font-size: 22px;
+    width: 50%;
+    background-color: rgba(217, 205, 191);
+    height: 100%;
+    padding-right: 91px;
+}
+.text2{
+    padding-right: 50px;
+    padding-top: 139px;
+    font-size: 22px;
+    width: 50%;
+    background-color: #8C775E;
+    height: 100%;
+    padding-left: 91px;
+    float: left;
+}

@@ -1,0 +1,147 @@
+
+/* Header */
+
+.homepage {
+    background-image: url("../image/place.png");
+    height: 800px;
+}
+
+/* Welcome part */
+
+h3{
+    font-size: 30px;
+	color: #59544F;
+}
+h4{
+    font-size: 25px;
+	color: #59544F;
+}
+
+/* Info  */
+
+.pass {
+    height: auto;
+    width: 100%;
+    background-color: rgba(217, 205, 191);
+    direction: rtl;
+    padding-bottom: 25px;
+}
+.pass h2{
+	color: #59544F;
+	padding-top: 20px;
+}
+.pass h3 {
+    text-align: right;
+    margin-right: 100px;
+	padding-bottom: 10px;
+}
+.info {
+	width: 940px;
+}
+.info p {
+	margin-right: 100px;
+    padding-bottom: 20px;
+}
+.dots {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+/* Galery */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 35px auto auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff85;
+}
+.text a {
+    color:black;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+    color: black;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff85;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.mySlides {
+width:100%;
+}

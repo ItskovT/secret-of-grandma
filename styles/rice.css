@@ -1,0 +1,78 @@
+/* Header */
+
+.homepage {
+    background-image: url("../image/food.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+/* Info Top */
+
+.article {
+    direction: rtl;
+    height: 630px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(217, 205, 191);
+}
+
+.stepByStep img {
+    float: left;
+    padding-left: 250px;
+}
+
+.title{
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.info{
+    font-size: 25px;
+}
+
+.stages{
+    padding-right: 250px;
+    text-align: right;
+    margin: 106px;
+    padding-top: 20px;
+    width: 622px;
+    font-size: 25px;
+}
+/* Info Buttom */
+.rice {
+    direction: rtl;
+}
+.var1, .var2, .var3, .var4, .var5{
+    height: 427px;
+    width: 100%;
+}
+.img1, .img3, .img5{
+    float: left;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.img2, .img4 {
+    float: right;
+    padding-right: 250px;
+    padding-top: 20px;
+}
+.text1, .text3, .text5{
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 22px;
+    width: 50%;
+    background-color: rgba(217, 205, 191);
+    height: 100%;
+    padding-right: 91px;
+}
+.text4, .text2{
+    padding-right: 50px;
+    padding-top: 100px;
+    font-size: 22px;
+    width: 50%;
+    background-color: #8C775E;
+    height: 100%;
+    padding-left: 91px;
+    float: left;
+}
