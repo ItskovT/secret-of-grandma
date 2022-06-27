@@ -14,7 +14,7 @@
     font-weight: bold;
     font-size: 23px;
     width: 100%;
-    height: 70px;
+    height: auto;
 }
 
 ul {
@@ -26,7 +26,7 @@ ul {
 .navbar{
     height: 50px;
     padding: 10px;
-    margin: 3px;
+    margin: auto;
     position: absolute;
 }
 .navbar li {
